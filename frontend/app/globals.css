@@ -1,9 +1,228 @@
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
+@import 'tailwindcss';
+@import 'tw-animate-css';
 
-body {
-  font-family: sans-serif;
-  background-color: #f9fafb;
-  color: #111827;
+@custom-variant dark (&:is(.dark *));
+
+/* ---------------------------------------------------------------------------
+   GridWise design tokens.
+
+   Surfaces, ink and the categorical series palette come from a validated
+   data-visualisation palette: the five series slots below clear the lightness
+   band, chroma floor, CVD separation (worst adjacent ΔE 9.1 light / 8.4 dark)
+   and normal-vision floor (19.6 light / 19.3 dark) against both surfaces.
+   Slot ORDER is the colour-blindness safety mechanism — do not reorder or
+   append a sixth slot without re-validating.
+--------------------------------------------------------------------------- */
+
+:root {
+  --radius: 0.75rem;
+
+  /* Chrome & ink ---------------------------------------------------------- */
+  --background: #f9f9f7; /* page plane */
+  --foreground: #0b0b0b; /* primary ink */
+  --card: #fcfcfb; /* chart surface */
+  --card-foreground: #0b0b0b;
+  --popover: #fcfcfb;
+  --popover-foreground: #0b0b0b;
+  --muted: #f0efec;
+  --muted-foreground: #52514e; /* secondary ink */
+  --subtle-foreground: #898781; /* axis / meta labels */
+  --accent: #f0efec;
+  --accent-foreground: #0b0b0b;
+  --border: rgba(11, 11, 11, 0.1);
+  --input: rgba(11, 11, 11, 0.14);
+  --ring: #2a78d6;
+
+  --primary: #256abf;
+  --primary-foreground: #fcfcfb;
+  --secondary: #f0efec;
+  --secondary-foreground: #0b0b0b;
+  --destructive: #d03b3b;
+  --destructive-foreground: #fcfcfb;
+
+  /* Status — reserved, never reused as a series colour --------------------- */
+  --status-good: #0ca30c;
+  --status-warning: #fab219;
+  --status-serious: #ec835a;
+  --status-critical: #d03b3b;
+
+  /* Categorical series slots ---------------------------------------------- */
+  --viz-1: #2a78d6; /* slot 1 blue    → campus demand      */
+  --viz-2: #eb6834; /* slot 2 orange  → grid import        */
+  --viz-3: #1baf7a; /* slot 3 aqua    → battery charge/SoC */
+  --viz-4: #eda100; /* slot 4 yellow  → solar used         */
+  --viz-5: #e87ba4; /* slot 5 magenta → battery discharge  */
+
+  --viz-demand: var(--viz-1);
+  --viz-grid: var(--viz-2);
+  --viz-battery: var(--viz-3);
+  --viz-solar: var(--viz-4);
+  --viz-discharge: var(--viz-5);
+
+  /* Chart chrome ----------------------------------------------------------- */
+  --viz-grid-line: #e1e0d9; /* hairline, solid — never dashed */
+  --viz-axis: #c3c2b7;
+  --viz-surface: #fcfcfb;
+  --viz-highlight: rgba(42, 120, 214, 0.09); /* directive window wash */
+  --viz-highlight-edge: rgba(42, 120, 214, 0.32);
+
+  /* Sequential ramp (single hue, light → dark) for the tariff ribbon -------- */
+  --ramp-1: #cde2fb;
+  --ramp-2: #9ec5f4;
+  --ramp-3: #6da7ec;
+  --ramp-4: #3987e5;
+  --ramp-5: #256abf;
+  --ramp-6: #184f95;
+  --ramp-7: #0d366b;
+}
+
+.dark {
+  --background: #0d0d0d;
+  --foreground: #ffffff;
+  --card: #1a1a19;
+  --card-foreground: #ffffff;
+  --popover: #1a1a19;
+  --popover-foreground: #ffffff;
+  --muted: #232320;
+  --muted-foreground: #c3c2b7;
+  --subtle-foreground: #898781;
+  --accent: #262623;
+  --accent-foreground: #ffffff;
+  --border: rgba(255, 255, 255, 0.1);
+  --input: rgba(255, 255, 255, 0.16);
+  --ring: #3987e5;
+
+  --primary: #3987e5;
+  --primary-foreground: #0d0d0d;
+  --secondary: #262623;
+  --secondary-foreground: #ffffff;
+  --destructive: #e66767;
+  --destructive-foreground: #0d0d0d;
+
+  --status-good: #0ca30c;
+  --status-warning: #fab219;
+  --status-serious: #ec835a;
+  --status-critical: #d03b3b;
+
+  /* Same five hues, re-stepped for the dark surface — not an automatic flip */
+  --viz-1: #3987e5;
+  --viz-2: #d95926;
+  --viz-3: #199e70;
+  --viz-4: #c98500;
+  --viz-5: #d55181;
+
+  --viz-grid-line: #2c2c2a;
+  --viz-axis: #383835;
+  --viz-surface: #1a1a19;
+  --viz-highlight: rgba(57, 135, 229, 0.14);
+  --viz-highlight-edge: rgba(57, 135, 229, 0.42);
+
+  --ramp-1: #0d366b;
+  --ramp-2: #184f95;
+  --ramp-3: #256abf;
+  --ramp-4: #3987e5;
+  --ramp-5: #6da7ec;
+  --ramp-6: #9ec5f4;
+  --ramp-7: #cde2fb;
+}
+
+@theme inline {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --color-card: var(--card);
+  --color-card-foreground: var(--card-foreground);
+  --color-popover: var(--popover);
+  --color-popover-foreground: var(--popover-foreground);
+  --color-primary: var(--primary);
+  --color-primary-foreground: var(--primary-foreground);
+  --color-secondary: var(--secondary);
+  --color-secondary-foreground: var(--secondary-foreground);
+  --color-muted: var(--muted);
+  --color-muted-foreground: var(--muted-foreground);
+  --color-subtle-foreground: var(--subtle-foreground);
+  --color-accent: var(--accent);
+  --color-accent-foreground: var(--accent-foreground);
+  --color-destructive: var(--destructive);
+  --color-destructive-foreground: var(--destructive-foreground);
+  --color-border: var(--border);
+  --color-input: var(--input);
+  --color-ring: var(--ring);
+
+  --color-status-good: var(--status-good);
+  --color-status-warning: var(--status-warning);
+  --color-status-serious: var(--status-serious);
+  --color-status-critical: var(--status-critical);
+
+  --color-viz-demand: var(--viz-demand);
+  --color-viz-grid: var(--viz-grid);
+  --color-viz-battery: var(--viz-battery);
+  --color-viz-solar: var(--viz-solar);
+  --color-viz-discharge: var(--viz-discharge);
+  --color-viz-line: var(--viz-grid-line);
+  --color-viz-axis: var(--viz-axis);
+
+  --radius-sm: calc(var(--radius) - 4px);
+  --radius-md: calc(var(--radius) - 2px);
+  --radius-lg: var(--radius);
+  --radius-xl: calc(var(--radius) + 4px);
+
+  --font-sans: system-ui, -apple-system, 'Segoe UI', sans-serif;
+  --font-mono: ui-monospace, SFMono-Regular, 'SF Mono', Menlo, monospace;
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+
+  html {
+    scroll-behavior: smooth;
+  }
+
+  body {
+    @apply bg-background text-foreground font-sans antialiased;
+    font-feature-settings: 'cv11', 'ss01';
+  }
+
+  /* Tick labels, table columns and any vertically aligned figures. */
+  .tabular {
+    font-variant-numeric: tabular-nums;
+  }
+
+  /* Hide the spinner on the 72 numeric scenario inputs — the step arrows add
+     visual noise at this density and the fields are keyboard-steppable anyway. */
+  input[type='number']::-webkit-outer-spin-button,
+  input[type='number']::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+  }
+
+  input[type='number'] {
+    -moz-appearance: textfield;
+  }
+
+  ::selection {
+    background: color-mix(in oklab, var(--primary) 26%, transparent);
+  }
+}
+
+@layer utilities {
+  .grain {
+    background-image: radial-gradient(
+      circle at 1px 1px,
+      color-mix(in oklab, var(--foreground) 7%, transparent) 1px,
+      transparent 0
+    );
+    background-size: 22px 22px;
+  }
+
+  .hairline {
+    box-shadow: 0 0 0 1px var(--border);
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
 }
