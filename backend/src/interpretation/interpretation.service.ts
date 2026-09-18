@@ -28,7 +28,7 @@ export class InterpretationService {
       rawContent = await this.llmClient.completePrompt(
         DIRECTIVE_INTERPRETATION_SYSTEM_PROMPT,
         userPrompt,
-        { temperature: 0.1, responseFormat: 'json_object' },
+        { temperature: 0.0, responseFormat: 'json_object' },
       );
     } catch (error) {
       // On LLM failure, return all no_op entries so the pipeline can still produce a schedule
@@ -68,6 +68,8 @@ export class InterpretationService {
       const arrKey = Object.keys(obj).find(k => Array.isArray(obj[k]));
       if (arrKey) {
         parsed = obj[arrKey];
+      } else if ('directive_type' in obj || 'note_index' in obj) {
+        parsed = [obj];
       } else {
         return notes.map((note, i) => ({
           note_index: i,

@@ -11,6 +11,7 @@ import {
 } from '@nestjs/common';
 import { FastifyReply } from 'fastify';
 import { LlmFailureError, ValidationFailureError } from '../shared/errors';
+import { ZodError } from 'zod';
 
 @Catch()
 export class GlobalExceptionFilter implements ExceptionFilter {
@@ -36,6 +37,11 @@ export class GlobalExceptionFilter implements ExceptionFilter {
         details = res;
       }
       code = 'HTTP_EXCEPTION';
+    } else if (exception instanceof ZodError) {
+      status = HttpStatus.BAD_REQUEST;
+      message = 'Validation failed';
+      code = 'VALIDATION_ERROR';
+      details = exception.errors;
     } else if (exception instanceof ValidationFailureError) {
       status = HttpStatus.BAD_REQUEST;
       message = exception.message;

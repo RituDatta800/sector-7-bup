@@ -1,0 +1,21 @@
+version: '3.8'
+
+services:
+  backend:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: gridwise-backend
+    ports:
+      - "3000:3000"
+    env_file:
+      - .env
+    # The GROQ_API_KEY is required for the GroqLlmClient to successfully interpret directives.
+    # It must be defined in the .env file. If missing, LLM calls will fail with 401 
+    # and safely fallback to "no_op" (ignoring operator notes).
+    healthcheck:
+      test: ["CMD-SHELL", "wget --no-verbose --tries=1 --spider http://localhost:3000/health || exit 1"]
+      interval: 10s
+      timeout: 5s
+      retries: 3
+      start_period: 5s
