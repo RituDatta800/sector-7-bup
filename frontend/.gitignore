@@ -1,0 +1,10 @@
+# Frontend-scoped ignores (the repo root .gitignore covers the rest).
+
+# Incremental TypeScript build state — machine-local, never useful in a commit.
+*.tsbuildinfo
+
+# Local env overrides
+.env.local
+
+# Next.js generated types
+next-env.d.ts
