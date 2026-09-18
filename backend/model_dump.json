@@ -1,0 +1,1475 @@
+{
+  "optimize": "cost",
+  "opType": "min",
+  "constraints": {
+    "grid_min_0": {
+      "min": 0
+    },
+    "solar_min_0": {
+      "min": 0
+    },
+    "charge_min_0": {
+      "min": 0
+    },
+    "discharge_min_0": {
+      "min": 0
+    },
+    "grid_min_1": {
+      "min": 0
+    },
+    "solar_min_1": {
+      "min": 0
+    },
+    "charge_min_1": {
+      "min": 0
+    },
+    "discharge_min_1": {
+      "min": 0
+    },
+    "grid_min_2": {
+      "min": 0
+    },
+    "solar_min_2": {
+      "min": 0
+    },
+    "charge_min_2": {
+      "min": 0
+    },
+    "discharge_min_2": {
+      "min": 0
+    },
+    "grid_min_3": {
+      "min": 0
+    },
+    "solar_min_3": {
+      "min": 0
+    },
+    "charge_min_3": {
+      "min": 0
+    },
+    "discharge_min_3": {
+      "min": 0
+    },
+    "grid_min_4": {
+      "min": 0
+    },
+    "solar_min_4": {
+      "min": 0
+    },
+    "charge_min_4": {
+      "min": 0
+    },
+    "discharge_min_4": {
+      "min": 0
+    },
+    "grid_min_5": {
+      "min": 0
+    },
+    "solar_min_5": {
+      "min": 0
+    },
+    "charge_min_5": {
+      "min": 0
+    },
+    "discharge_min_5": {
+      "min": 0
+    },
+    "grid_min_6": {
+      "min": 0
+    },
+    "solar_min_6": {
+      "min": 0
+    },
+    "charge_min_6": {
+      "min": 0
+    },
+    "discharge_min_6": {
+      "min": 0
+    },
+    "grid_min_7": {
+      "min": 0
+    },
+    "solar_min_7": {
+      "min": 0
+    },
+    "charge_min_7": {
+      "min": 0
+    },
+    "discharge_min_7": {
+      "min": 0
+    },
+    "grid_min_8": {
+      "min": 0
+    },
+    "solar_min_8": {
+      "min": 0
+    },
+    "charge_min_8": {
+      "min": 0
+    },
+    "discharge_min_8": {
+      "min": 0
+    },
+    "grid_min_9": {
+      "min": 0
+    },
+    "solar_min_9": {
+      "min": 0
+    },
+    "charge_min_9": {
+      "min": 0
+    },
+    "discharge_min_9": {
+      "min": 0
+    },
+    "grid_min_10": {
+      "min": 0
+    },
+    "solar_min_10": {
+      "min": 0
+    },
+    "charge_min_10": {
+      "min": 0
+    },
+    "discharge_min_10": {
+      "min": 0
+    },
+    "grid_min_11": {
+      "min": 0
+    },
+    "solar_min_11": {
+      "min": 0
+    },
+    "charge_min_11": {
+      "min": 0
+    },
+    "discharge_min_11": {
+      "min": 0
+    },
+    "grid_min_12": {
+      "min": 0
+    },
+    "solar_min_12": {
+      "min": 0
+    },
+    "charge_min_12": {
+      "min": 0
+    },
+    "discharge_min_12": {
+      "min": 0
+    },
+    "grid_min_13": {
+      "min": 0
+    },
+    "solar_min_13": {
+      "min": 0
+    },
+    "charge_min_13": {
+      "min": 0
+    },
+    "discharge_min_13": {
+      "min": 0
+    },
+    "grid_min_14": {
+      "min": 0
+    },
+    "solar_min_14": {
+      "min": 0
+    },
+    "charge_min_14": {
+      "min": 0
+    },
+    "discharge_min_14": {
+      "min": 0
+    },
+    "grid_min_15": {
+      "min": 0
+    },
+    "solar_min_15": {
+      "min": 0
+    },
+    "charge_min_15": {
+      "min": 0
+    },
+    "discharge_min_15": {
+      "min": 0
+    },
+    "grid_min_16": {
+      "min": 0
+    },
+    "solar_min_16": {
+      "min": 0
+    },
+    "charge_min_16": {
+      "min": 0
+    },
+    "discharge_min_16": {
+      "min": 0
+    },
+    "grid_min_17": {
+      "min": 0
+    },
+    "solar_min_17": {
+      "min": 0
+    },
+    "charge_min_17": {
+      "min": 0
+    },
+    "discharge_min_17": {
+      "min": 0
+    },
+    "grid_min_18": {
+      "min": 0
+    },
+    "solar_min_18": {
+      "min": 0
+    },
+    "charge_min_18": {
+      "min": 0
+    },
+    "discharge_min_18": {
+      "min": 0
+    },
+    "grid_min_19": {
+      "min": 0
+    },
+    "solar_min_19": {
+      "min": 0
+    },
+    "charge_min_19": {
+      "min": 0
+    },
+    "discharge_min_19": {
+      "min": 0
+    },
+    "grid_min_20": {
+      "min": 0
+    },
+    "solar_min_20": {
+      "min": 0
+    },
+    "charge_min_20": {
+      "min": 0
+    },
+    "discharge_min_20": {
+      "min": 0
+    },
+    "grid_min_21": {
+      "min": 0
+    },
+    "solar_min_21": {
+      "min": 0
+    },
+    "charge_min_21": {
+      "min": 0
+    },
+    "discharge_min_21": {
+      "min": 0
+    },
+    "grid_min_22": {
+      "min": 0
+    },
+    "solar_min_22": {
+      "min": 0
+    },
+    "charge_min_22": {
+      "min": 0
+    },
+    "discharge_min_22": {
+      "min": 0
+    },
+    "grid_min_23": {
+      "min": 0
+    },
+    "solar_min_23": {
+      "min": 0
+    },
+    "charge_min_23": {
+      "min": 0
+    },
+    "discharge_min_23": {
+      "min": 0
+    },
+    "balance_0": {
+      "equal": 100
+    },
+    "balance_1": {
+      "equal": 95
+    },
+    "balance_2": {
+      "equal": 90
+    },
+    "balance_3": {
+      "equal": 90
+    },
+    "balance_4": {
+      "equal": 95
+    },
+    "balance_5": {
+      "equal": 105
+    },
+    "balance_6": {
+      "equal": 120
+    },
+    "balance_7": {
+      "equal": 135
+    },
+    "balance_8": {
+      "equal": 145
+    },
+    "balance_9": {
+      "equal": 155
+    },
+    "balance_10": {
+      "equal": 165
+    },
+    "balance_11": {
+      "equal": 175
+    },
+    "balance_12": {
+      "equal": 180
+    },
+    "balance_13": {
+      "equal": 175
+    },
+    "balance_14": {
+      "equal": 165
+    },
+    "balance_15": {
+      "equal": 160
+    },
+    "balance_16": {
+      "equal": 170
+    },
+    "balance_17": {
+      "equal": 190
+    },
+    "balance_18": {
+      "equal": 210
+    },
+    "balance_19": {
+      "equal": 220
+    },
+    "balance_20": {
+      "equal": 210
+    },
+    "balance_21": {
+      "equal": 180
+    },
+    "balance_22": {
+      "equal": 145
+    },
+    "balance_23": {
+      "equal": 115
+    },
+    "charge_rate_0": {
+      "max": 55
+    },
+    "discharge_rate_0": {
+      "max": 55
+    },
+    "soc_track_0": {
+      "equal": 70
+    },
+    "soc_min_0": {
+      "min": 30
+    },
+    "soc_max_0": {
+      "max": 200
+    },
+    "charge_rate_1": {
+      "max": 55
+    },
+    "discharge_rate_1": {
+      "max": 55
+    },
+    "soc_track_1": {
+      "equal": 0
+    },
+    "soc_min_1": {
+      "min": 30
+    },
+    "soc_max_1": {
+      "max": 200
+    },
+    "charge_rate_2": {
+      "max": 55
+    },
+    "discharge_rate_2": {
+      "max": 55
+    },
+    "soc_track_2": {
+      "equal": 0
+    },
+    "soc_min_2": {
+      "min": 30
+    },
+    "soc_max_2": {
+      "max": 200
+    },
+    "charge_rate_3": {
+      "max": 55
+    },
+    "discharge_rate_3": {
+      "max": 55
+    },
+    "soc_track_3": {
+      "equal": 0
+    },
+    "soc_min_3": {
+      "min": 30
+    },
+    "soc_max_3": {
+      "max": 200
+    },
+    "charge_rate_4": {
+      "max": 55
+    },
+    "discharge_rate_4": {
+      "max": 55
+    },
+    "soc_track_4": {
+      "equal": 0
+    },
+    "soc_min_4": {
+      "min": 30
+    },
+    "soc_max_4": {
+      "max": 200
+    },
+    "charge_rate_5": {
+      "max": 55
+    },
+    "discharge_rate_5": {
+      "max": 55
+    },
+    "soc_track_5": {
+      "equal": 0
+    },
+    "soc_min_5": {
+      "min": 30
+    },
+    "soc_max_5": {
+      "max": 200
+    },
+    "charge_rate_6": {
+      "max": 55
+    },
+    "discharge_rate_6": {
+      "max": 55
+    },
+    "soc_track_6": {
+      "equal": 0
+    },
+    "soc_min_6": {
+      "min": 30
+    },
+    "soc_max_6": {
+      "max": 200
+    },
+    "charge_rate_7": {
+      "max": 55
+    },
+    "discharge_rate_7": {
+      "max": 55
+    },
+    "soc_track_7": {
+      "equal": 0
+    },
+    "soc_min_7": {
+      "min": 30
+    },
+    "soc_max_7": {
+      "max": 200
+    },
+    "charge_rate_8": {
+      "max": 55
+    },
+    "discharge_rate_8": {
+      "max": 55
+    },
+    "soc_track_8": {
+      "equal": 0
+    },
+    "soc_min_8": {
+      "min": 30
+    },
+    "soc_max_8": {
+      "max": 200
+    },
+    "charge_rate_9": {
+      "max": 55
+    },
+    "discharge_rate_9": {
+      "max": 55
+    },
+    "soc_track_9": {
+      "equal": 0
+    },
+    "soc_min_9": {
+      "min": 30
+    },
+    "soc_max_9": {
+      "max": 200
+    },
+    "charge_rate_10": {
+      "max": 55
+    },
+    "discharge_rate_10": {
+      "max": 55
+    },
+    "soc_track_10": {
+      "equal": 0
+    },
+    "soc_min_10": {
+      "min": 30
+    },
+    "soc_max_10": {
+      "max": 200
+    },
+    "charge_rate_11": {
+      "max": 55
+    },
+    "discharge_rate_11": {
+      "max": 55
+    },
+    "soc_track_11": {
+      "equal": 0
+    },
+    "soc_min_11": {
+      "min": 30
+    },
+    "soc_max_11": {
+      "max": 200
+    },
+    "charge_rate_12": {
+      "max": 55
+    },
+    "discharge_rate_12": {
+      "max": 55
+    },
+    "soc_track_12": {
+      "equal": 0
+    },
+    "soc_min_12": {
+      "min": 30
+    },
+    "soc_max_12": {
+      "max": 200
+    },
+    "charge_rate_13": {
+      "max": 55
+    },
+    "discharge_rate_13": {
+      "max": 55
+    },
+    "soc_track_13": {
+      "equal": 0
+    },
+    "soc_min_13": {
+      "min": 30
+    },
+    "soc_max_13": {
+      "max": 200
+    },
+    "charge_rate_14": {
+      "max": 55
+    },
+    "discharge_rate_14": {
+      "max": 55
+    },
+    "soc_track_14": {
+      "equal": 0
+    },
+    "soc_min_14": {
+      "min": 30
+    },
+    "soc_max_14": {
+      "max": 200
+    },
+    "charge_rate_15": {
+      "max": 55
+    },
+    "discharge_rate_15": {
+      "max": 55
+    },
+    "soc_track_15": {
+      "equal": 0
+    },
+    "soc_min_15": {
+      "min": 30
+    },
+    "soc_max_15": {
+      "max": 200
+    },
+    "charge_rate_16": {
+      "max": 55
+    },
+    "discharge_rate_16": {
+      "max": 55
+    },
+    "soc_track_16": {
+      "equal": 0
+    },
+    "soc_min_16": {
+      "min": 30
+    },
+    "soc_max_16": {
+      "max": 200
+    },
+    "charge_rate_17": {
+      "max": 55
+    },
+    "discharge_rate_17": {
+      "max": 55
+    },
+    "soc_track_17": {
+      "equal": 0
+    },
+    "soc_min_17": {
+      "min": 30
+    },
+    "soc_max_17": {
+      "max": 200
+    },
+    "charge_rate_18": {
+      "max": 55
+    },
+    "discharge_rate_18": {
+      "max": 55
+    },
+    "soc_track_18": {
+      "equal": 0
+    },
+    "soc_min_18": {
+      "min": 30
+    },
+    "soc_max_18": {
+      "max": 200
+    },
+    "charge_rate_19": {
+      "max": 55
+    },
+    "discharge_rate_19": {
+      "max": 55
+    },
+    "soc_track_19": {
+      "equal": 0
+    },
+    "soc_min_19": {
+      "min": 30
+    },
+    "soc_max_19": {
+      "max": 200
+    },
+    "charge_rate_20": {
+      "max": 55
+    },
+    "discharge_rate_20": {
+      "max": 55
+    },
+    "soc_track_20": {
+      "equal": 0
+    },
+    "soc_min_20": {
+      "min": 30
+    },
+    "soc_max_20": {
+      "max": 200
+    },
+    "charge_rate_21": {
+      "max": 55
+    },
+    "discharge_rate_21": {
+      "max": 55
+    },
+    "soc_track_21": {
+      "equal": 0
+    },
+    "soc_min_21": {
+      "min": 30
+    },
+    "soc_max_21": {
+      "max": 200
+    },
+    "charge_rate_22": {
+      "max": 55
+    },
+    "discharge_rate_22": {
+      "max": 55
+    },
+    "soc_track_22": {
+      "equal": 0
+    },
+    "soc_min_22": {
+      "min": 30
+    },
+    "soc_max_22": {
+      "max": 200
+    },
+    "charge_rate_23": {
+      "max": 55
+    },
+    "discharge_rate_23": {
+      "max": 55
+    },
+    "soc_track_23": {
+      "equal": 0
+    },
+    "soc_min_23": {
+      "min": 30
+    },
+    "soc_max_23": {
+      "max": 200
+    },
+    "soc_eod": {
+      "equal": 70
+    },
+    "solar_cap_0": {
+      "max": 0
+    },
+    "solar_cap_1": {
+      "max": 0
+    },
+    "solar_cap_2": {
+      "max": 0
+    },
+    "solar_cap_3": {
+      "max": 0
+    },
+    "solar_cap_4": {
+      "max": 0
+    },
+    "solar_cap_5": {
+      "max": 0
+    },
+    "solar_cap_6": {
+      "max": 0
+    },
+    "solar_cap_7": {
+      "max": 10
+    },
+    "solar_cap_8": {
+      "max": 30
+    },
+    "solar_cap_9": {
+      "max": 55
+    },
+    "solar_cap_10": {
+      "max": 80
+    },
+    "solar_cap_11": {
+      "max": 100
+    },
+    "solar_cap_12": {
+      "max": 110
+    },
+    "solar_cap_13": {
+      "max": 105
+    },
+    "solar_cap_14": {
+      "max": 85
+    },
+    "solar_cap_15": {
+      "max": 60
+    },
+    "solar_cap_16": {
+      "max": 30
+    },
+    "solar_cap_17": {
+      "max": 10
+    },
+    "solar_cap_18": {
+      "max": 0
+    },
+    "solar_cap_19": {
+      "max": 0
+    },
+    "solar_cap_20": {
+      "max": 0
+    },
+    "solar_cap_21": {
+      "max": 0
+    },
+    "solar_cap_22": {
+      "max": 0
+    },
+    "solar_cap_23": {
+      "max": 0
+    }
+  },
+  "variables": {
+    "grid_0": {
+      "cost": 6,
+      "grid_min_0": 1,
+      "balance_0": 1
+    },
+    "solar_0": {
+      "solar_min_0": 1,
+      "balance_0": 1,
+      "solar_cap_0": 1
+    },
+    "charge_0": {
+      "charge_min_0": 1,
+      "balance_0": -1,
+      "charge_rate_0": 1,
+      "soc_track_0": -1
+    },
+    "discharge_0": {
+      "discharge_min_0": 1,
+      "balance_0": 1,
+      "discharge_rate_0": 1,
+      "soc_track_0": 1
+    },
+    "soc_0": {
+      "soc_track_0": 1,
+      "soc_min_0": 1,
+      "soc_max_0": 1,
+      "soc_track_1": -1
+    },
+    "grid_1": {
+      "cost": 5,
+      "grid_min_1": 1,
+      "balance_1": 1
+    },
+    "solar_1": {
+      "solar_min_1": 1,
+      "balance_1": 1,
+      "solar_cap_1": 1
+    },
+    "charge_1": {
+      "charge_min_1": 1,
+      "balance_1": -1,
+      "charge_rate_1": 1,
+      "soc_track_1": -1
+    },
+    "discharge_1": {
+      "discharge_min_1": 1,
+      "balance_1": 1,
+      "discharge_rate_1": 1,
+      "soc_track_1": 1
+    },
+    "soc_1": {
+      "soc_track_1": 1,
+      "soc_min_1": 1,
+      "soc_max_1": 1,
+      "soc_track_2": -1
+    },
+    "grid_2": {
+      "cost": 4,
+      "grid_min_2": 1,
+      "balance_2": 1
+    },
+    "solar_2": {
+      "solar_min_2": 1,
+      "balance_2": 1,
+      "solar_cap_2": 1
+    },
+    "charge_2": {
+      "charge_min_2": 1,
+      "balance_2": -1,
+      "charge_rate_2": 1,
+      "soc_track_2": -1
+    },
+    "discharge_2": {
+      "discharge_min_2": 1,
+      "balance_2": 1,
+      "discharge_rate_2": 1,
+      "soc_track_2": 1
+    },
+    "soc_2": {
+      "soc_track_2": 1,
+      "soc_min_2": 1,
+      "soc_max_2": 1,
+      "soc_track_3": -1
+    },
+    "grid_3": {
+      "cost": 4,
+      "grid_min_3": 1,
+      "balance_3": 1
+    },
+    "solar_3": {
+      "solar_min_3": 1,
+      "balance_3": 1,
+      "solar_cap_3": 1
+    },
+    "charge_3": {
+      "charge_min_3": 1,
+      "balance_3": -1,
+      "charge_rate_3": 1,
+      "soc_track_3": -1
+    },
+    "discharge_3": {
+      "discharge_min_3": 1,
+      "balance_3": 1,
+      "discharge_rate_3": 1,
+      "soc_track_3": 1
+    },
+    "soc_3": {
+      "soc_track_3": 1,
+      "soc_min_3": 1,
+      "soc_max_3": 1,
+      "soc_track_4": -1
+    },
+    "grid_4": {
+      "cost": 4,
+      "grid_min_4": 1,
+      "balance_4": 1
+    },
+    "solar_4": {
+      "solar_min_4": 1,
+      "balance_4": 1,
+      "solar_cap_4": 1
+    },
+    "charge_4": {
+      "charge_min_4": 1,
+      "balance_4": -1,
+      "charge_rate_4": 1,
+      "soc_track_4": -1
+    },
+    "discharge_4": {
+      "discharge_min_4": 1,
+      "balance_4": 1,
+      "discharge_rate_4": 1,
+      "soc_track_4": 1
+    },
+    "soc_4": {
+      "soc_track_4": 1,
+      "soc_min_4": 1,
+      "soc_max_4": 1,
+      "soc_track_5": -1
+    },
+    "grid_5": {
+      "cost": 5,
+      "grid_min_5": 1,
+      "balance_5": 1
+    },
+    "solar_5": {
+      "solar_min_5": 1,
+      "balance_5": 1,
+      "solar_cap_5": 1
+    },
+    "charge_5": {
+      "charge_min_5": 1,
+      "balance_5": -1,
+      "charge_rate_5": 1,
+      "soc_track_5": -1
+    },
+    "discharge_5": {
+      "discharge_min_5": 1,
+      "balance_5": 1,
+      "discharge_rate_5": 1,
+      "soc_track_5": 1
+    },
+    "soc_5": {
+      "soc_track_5": 1,
+      "soc_min_5": 1,
+      "soc_max_5": 1,
+      "soc_track_6": -1
+    },
+    "grid_6": {
+      "cost": 7,
+      "grid_min_6": 1,
+      "balance_6": 1
+    },
+    "solar_6": {
+      "solar_min_6": 1,
+      "balance_6": 1,
+      "solar_cap_6": 1
+    },
+    "charge_6": {
+      "charge_min_6": 1,
+      "balance_6": -1,
+      "charge_rate_6": 1,
+      "soc_track_6": -1
+    },
+    "discharge_6": {
+      "discharge_min_6": 1,
+      "balance_6": 1,
+      "discharge_rate_6": 1,
+      "soc_track_6": 1
+    },
+    "soc_6": {
+      "soc_track_6": 1,
+      "soc_min_6": 1,
+      "soc_max_6": 1,
+      "soc_track_7": -1
+    },
+    "grid_7": {
+      "cost": 9,
+      "grid_min_7": 1,
+      "balance_7": 1
+    },
+    "solar_7": {
+      "solar_min_7": 1,
+      "balance_7": 1,
+      "solar_cap_7": 1
+    },
+    "charge_7": {
+      "charge_min_7": 1,
+      "balance_7": -1,
+      "charge_rate_7": 1,
+      "soc_track_7": -1
+    },
+    "discharge_7": {
+      "discharge_min_7": 1,
+      "balance_7": 1,
+      "discharge_rate_7": 1,
+      "soc_track_7": 1
+    },
+    "soc_7": {
+      "soc_track_7": 1,
+      "soc_min_7": 1,
+      "soc_max_7": 1,
+      "soc_track_8": -1
+    },
+    "grid_8": {
+      "cost": 11,
+      "grid_min_8": 1,
+      "balance_8": 1
+    },
+    "solar_8": {
+      "solar_min_8": 1,
+      "balance_8": 1,
+      "solar_cap_8": 1
+    },
+    "charge_8": {
+      "charge_min_8": 1,
+      "balance_8": -1,
+      "charge_rate_8": 1,
+      "soc_track_8": -1
+    },
+    "discharge_8": {
+      "discharge_min_8": 1,
+      "balance_8": 1,
+      "discharge_rate_8": 1,
+      "soc_track_8": 1
+    },
+    "soc_8": {
+      "soc_track_8": 1,
+      "soc_min_8": 1,
+      "soc_max_8": 1,
+      "soc_track_9": -1
+    },
+    "grid_9": {
+      "cost": 13,
+      "grid_min_9": 1,
+      "balance_9": 1
+    },
+    "solar_9": {
+      "solar_min_9": 1,
+      "balance_9": 1,
+      "solar_cap_9": 1
+    },
+    "charge_9": {
+      "charge_min_9": 1,
+      "balance_9": -1,
+      "charge_rate_9": 1,
+      "soc_track_9": -1
+    },
+    "discharge_9": {
+      "discharge_min_9": 1,
+      "balance_9": 1,
+      "discharge_rate_9": 1,
+      "soc_track_9": 1
+    },
+    "soc_9": {
+      "soc_track_9": 1,
+      "soc_min_9": 1,
+      "soc_max_9": 1,
+      "soc_track_10": -1
+    },
+    "grid_10": {
+      "cost": 15,
+      "grid_min_10": 1,
+      "balance_10": 1
+    },
+    "solar_10": {
+      "solar_min_10": 1,
+      "balance_10": 1,
+      "solar_cap_10": 1
+    },
+    "charge_10": {
+      "charge_min_10": 1,
+      "balance_10": -1,
+      "charge_rate_10": 1,
+      "soc_track_10": -1
+    },
+    "discharge_10": {
+      "discharge_min_10": 1,
+      "balance_10": 1,
+      "discharge_rate_10": 1,
+      "soc_track_10": 1
+    },
+    "soc_10": {
+      "soc_track_10": 1,
+      "soc_min_10": 1,
+      "soc_max_10": 1,
+      "soc_track_11": -1
+    },
+    "grid_11": {
+      "cost": 16,
+      "grid_min_11": 1,
+      "balance_11": 1
+    },
+    "solar_11": {
+      "solar_min_11": 1,
+      "balance_11": 1,
+      "solar_cap_11": 1
+    },
+    "charge_11": {
+      "charge_min_11": 1,
+      "balance_11": -1,
+      "charge_rate_11": 1,
+      "soc_track_11": -1
+    },
+    "discharge_11": {
+      "discharge_min_11": 1,
+      "balance_11": 1,
+      "discharge_rate_11": 1,
+      "soc_track_11": 1
+    },
+    "soc_11": {
+      "soc_track_11": 1,
+      "soc_min_11": 1,
+      "soc_max_11": 1,
+      "soc_track_12": -1
+    },
+    "grid_12": {
+      "cost": 16,
+      "grid_min_12": 1,
+      "balance_12": 1
+    },
+    "solar_12": {
+      "solar_min_12": 1,
+      "balance_12": 1,
+      "solar_cap_12": 1
+    },
+    "charge_12": {
+      "charge_min_12": 1,
+      "balance_12": -1,
+      "charge_rate_12": 1,
+      "soc_track_12": -1
+    },
+    "discharge_12": {
+      "discharge_min_12": 1,
+      "balance_12": 1,
+      "discharge_rate_12": 1,
+      "soc_track_12": 1
+    },
+    "soc_12": {
+      "soc_track_12": 1,
+      "soc_min_12": 1,
+      "soc_max_12": 1,
+      "soc_track_13": -1
+    },
+    "grid_13": {
+      "cost": 15,
+      "grid_min_13": 1,
+      "balance_13": 1
+    },
+    "solar_13": {
+      "solar_min_13": 1,
+      "balance_13": 1,
+      "solar_cap_13": 1
+    },
+    "charge_13": {
+      "charge_min_13": 1,
+      "balance_13": -1,
+      "charge_rate_13": 1,
+      "soc_track_13": -1
+    },
+    "discharge_13": {
+      "discharge_min_13": 1,
+      "balance_13": 1,
+      "discharge_rate_13": 1,
+      "soc_track_13": 1
+    },
+    "soc_13": {
+      "soc_track_13": 1,
+      "soc_min_13": 1,
+      "soc_max_13": 1,
+      "soc_track_14": -1
+    },
+    "grid_14": {
+      "cost": 14,
+      "grid_min_14": 1,
+      "balance_14": 1
+    },
+    "solar_14": {
+      "solar_min_14": 1,
+      "balance_14": 1,
+      "solar_cap_14": 1
+    },
+    "charge_14": {
+      "charge_min_14": 1,
+      "balance_14": -1,
+      "charge_rate_14": 1,
+      "soc_track_14": -1
+    },
+    "discharge_14": {
+      "discharge_min_14": 1,
+      "balance_14": 1,
+      "discharge_rate_14": 1,
+      "soc_track_14": 1
+    },
+    "soc_14": {
+      "soc_track_14": 1,
+      "soc_min_14": 1,
+      "soc_max_14": 1,
+      "soc_track_15": -1
+    },
+    "grid_15": {
+      "cost": 15,
+      "grid_min_15": 1,
+      "balance_15": 1
+    },
+    "solar_15": {
+      "solar_min_15": 1,
+      "balance_15": 1,
+      "solar_cap_15": 1
+    },
+    "charge_15": {
+      "charge_min_15": 1,
+      "balance_15": -1,
+      "charge_rate_15": 1,
+      "soc_track_15": -1
+    },
+    "discharge_15": {
+      "discharge_min_15": 1,
+      "balance_15": 1,
+      "discharge_rate_15": 1,
+      "soc_track_15": 1
+    },
+    "soc_15": {
+      "soc_track_15": 1,
+      "soc_min_15": 1,
+      "soc_max_15": 1,
+      "soc_track_16": -1
+    },
+    "grid_16": {
+      "cost": 19,
+      "grid_min_16": 1,
+      "balance_16": 1
+    },
+    "solar_16": {
+      "solar_min_16": 1,
+      "balance_16": 1,
+      "solar_cap_16": 1
+    },
+    "charge_16": {
+      "charge_min_16": 1,
+      "balance_16": -1,
+      "charge_rate_16": 1,
+      "soc_track_16": -1
+    },
+    "discharge_16": {
+      "discharge_min_16": 1,
+      "balance_16": 1,
+      "discharge_rate_16": 1,
+      "soc_track_16": 1
+    },
+    "soc_16": {
+      "soc_track_16": 1,
+      "soc_min_16": 1,
+      "soc_max_16": 1,
+      "soc_track_17": -1
+    },
+    "grid_17": {
+      "cost": 24,
+      "grid_min_17": 1,
+      "balance_17": 1
+    },
+    "solar_17": {
+      "solar_min_17": 1,
+      "balance_17": 1,
+      "solar_cap_17": 1
+    },
+    "charge_17": {
+      "charge_min_17": 1,
+      "balance_17": -1,
+      "charge_rate_17": 1,
+      "soc_track_17": -1
+    },
+    "discharge_17": {
+      "discharge_min_17": 1,
+      "balance_17": 1,
+      "discharge_rate_17": 1,
+      "soc_track_17": 1
+    },
+    "soc_17": {
+      "soc_track_17": 1,
+      "soc_min_17": 1,
+      "soc_max_17": 1,
+      "soc_track_18": -1
+    },
+    "grid_18": {
+      "cost": 31,
+      "grid_min_18": 1,
+      "balance_18": 1
+    },
+    "solar_18": {
+      "solar_min_18": 1,
+      "balance_18": 1,
+      "solar_cap_18": 1
+    },
+    "charge_18": {
+      "charge_min_18": 1,
+      "balance_18": -1,
+      "charge_rate_18": 1,
+      "soc_track_18": -1
+    },
+    "discharge_18": {
+      "discharge_min_18": 1,
+      "balance_18": 1,
+      "discharge_rate_18": 1,
+      "soc_track_18": 1
+    },
+    "soc_18": {
+      "soc_track_18": 1,
+      "soc_min_18": 1,
+      "soc_max_18": 1,
+      "soc_track_19": -1
+    },
+    "grid_19": {
+      "cost": 33,
+      "grid_min_19": 1,
+      "balance_19": 1
+    },
+    "solar_19": {
+      "solar_min_19": 1,
+      "balance_19": 1,
+      "solar_cap_19": 1
+    },
+    "charge_19": {
+      "charge_min_19": 1,
+      "balance_19": -1,
+      "charge_rate_19": 1,
+      "soc_track_19": -1
+    },
+    "discharge_19": {
+      "discharge_min_19": 1,
+      "balance_19": 1,
+      "discharge_rate_19": 1,
+      "soc_track_19": 1
+    },
+    "soc_19": {
+      "soc_track_19": 1,
+      "soc_min_19": 1,
+      "soc_max_19": 1,
+      "soc_track_20": -1
+    },
+    "grid_20": {
+      "cost": 29,
+      "grid_min_20": 1,
+      "balance_20": 1
+    },
+    "solar_20": {
+      "solar_min_20": 1,
+      "balance_20": 1,
+      "solar_cap_20": 1
+    },
+    "charge_20": {
+      "charge_min_20": 1,
+      "balance_20": -1,
+      "charge_rate_20": 1,
+      "soc_track_20": -1
+    },
+    "discharge_20": {
+      "discharge_min_20": 1,
+      "balance_20": 1,
+      "discharge_rate_20": 1,
+      "soc_track_20": 1
+    },
+    "soc_20": {
+      "soc_track_20": 1,
+      "soc_min_20": 1,
+      "soc_max_20": 1,
+      "soc_track_21": -1
+    },
+    "grid_21": {
+      "cost": 20,
+      "grid_min_21": 1,
+      "balance_21": 1
+    },
+    "solar_21": {
+      "solar_min_21": 1,
+      "balance_21": 1,
+      "solar_cap_21": 1
+    },
+    "charge_21": {
+      "charge_min_21": 1,
+      "balance_21": -1,
+      "charge_rate_21": 1,
+      "soc_track_21": -1
+    },
+    "discharge_21": {
+      "discharge_min_21": 1,
+      "balance_21": 1,
+      "discharge_rate_21": 1,
+      "soc_track_21": 1
+    },
+    "soc_21": {
+      "soc_track_21": 1,
+      "soc_min_21": 1,
+      "soc_max_21": 1,
+      "soc_track_22": -1
+    },
+    "grid_22": {
+      "cost": 11,
+      "grid_min_22": 1,
+      "balance_22": 1
+    },
+    "solar_22": {
+      "solar_min_22": 1,
+      "balance_22": 1,
+      "solar_cap_22": 1
+    },
+    "charge_22": {
+      "charge_min_22": 1,
+      "balance_22": -1,
+      "charge_rate_22": 1,
+      "soc_track_22": -1
+    },
+    "discharge_22": {
+      "discharge_min_22": 1,
+      "balance_22": 1,
+      "discharge_rate_22": 1,
+      "soc_track_22": 1
+    },
+    "soc_22": {
+      "soc_track_22": 1,
+      "soc_min_22": 1,
+      "soc_max_22": 1,
+      "soc_track_23": -1
+    },
+    "grid_23": {
+      "cost": 7,
+      "grid_min_23": 1,
+      "balance_23": 1
+    },
+    "solar_23": {
+      "solar_min_23": 1,
+      "balance_23": 1,
+      "solar_cap_23": 1
+    },
+    "charge_23": {
+      "charge_min_23": 1,
+      "balance_23": -1,
+      "charge_rate_23": 1,
+      "soc_track_23": -1
+    },
+    "discharge_23": {
+      "discharge_min_23": 1,
+      "balance_23": 1,
+      "discharge_rate_23": 1,
+      "soc_track_23": 1
+    },
+    "soc_23": {
+      "soc_track_23": 1,
+      "soc_min_23": 1,
+      "soc_max_23": 1,
+      "soc_eod": 1
+    }
+  }
+}

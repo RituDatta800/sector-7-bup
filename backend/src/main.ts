@@ -12,7 +12,7 @@ import { GlobalExceptionFilter } from './filters/global-exception.filter';
 async function bootstrap() {
   const app = await NestFactory.create<NestFastifyApplication>(
     AppModule,
-    new FastifyAdapter({ logger: true }),
+    new FastifyAdapter({ logger: true, bodyLimit: 65536 }),
   );
 
   // Enable CORS for frontend local test console
